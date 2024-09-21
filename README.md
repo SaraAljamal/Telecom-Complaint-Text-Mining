@@ -16,13 +16,13 @@ The dataset consists of customer complaints in both Arabic and English languages
 
 _**Project Workflow**_
 1. Data Preprocessing:
-   - Text Cleaning: Removing stop words, punctuation, and normalizing text for both Arabic and English complaints.
-   - Tokenization: Breaking down the text into individual words or phrases.
-   - TF-IDF: Applied Term Frequency-Inverse Document Frequency (TF-IDF) to convert textual data into numerical form.
+- Text Cleaning: Removing stop words, punctuation, and normalizing text for both Arabic and English complaints.
+- Tokenization: Breaking down the text into individual words or phrases.
+- TF-IDF: Applied Term Frequency-Inverse Document Frequency (TF-IDF) to convert textual data into numerical form.
      
 2. Relevance Matching:
-   - Implemented a similarity search technique (e.g., Cosine Similarity) to find the most relevant complaints based on a user's query.
-   - The system retrieves and ranks the top complaints related to the query entered by the user (employee).
+- Implemented a similarity search technique (e.g., Cosine Similarity) to find the most relevant complaints based on a user's query.
+- The system retrieves and ranks the top complaints related to the query entered by the user (employee).
 
 3. Graph Data Mining:
  - Prefix and Suffix Connections Graph: A graph was created to demonstrate how words in the query connect based on prefixes and suffixes. Centrality measures were calculated to determine the importance of each word in the graph.
